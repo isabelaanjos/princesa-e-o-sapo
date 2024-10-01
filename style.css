@@ -1,0 +1,35 @@
+body{
+    background-color:rgb(2, 1, 0);
+    color:rgb(37, 173, 3);
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: azure;
+    color: rgb(6, 246, 30);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main{
+    text-align: center;
+    max-width: 90%;
+    font-size: 20px;
+}
+
+img{
+    max-width: 80%;
+}
